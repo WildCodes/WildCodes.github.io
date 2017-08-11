@@ -1,0 +1,237 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+
+ <style>
+    .parallax {
+        /* The image used */
+        background-image: url("bilder/wildcodes2.png");
+
+        /* Set a specific height */
+        min-height: 1200px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        <!-- Angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+
+        <!-- Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+
+        <!-- AngularFire -->
+        <script src="https://cdn.firebase.com/libs/angularfire/2.2.0/angularfire.min.js"></script>
+
+        <script type="text/javascript" src="js/funktion.js"></script>
+
+
+    </style>
+</head>
+
+
+<!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Koppla in Bootstrap css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+<link rel="stylesheet" type ="text/css" href="css/style.css">
+
+<!-- Koppla in och JQuery Bootstrap javascript -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+<script type="text/javascript" src="js/funktion.js"></script>
+
+<!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+<title>WildCodes</title>
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body ng-app="app">
+    <div class="parallax">
+
+        <br><br><br>
+        <h2 id="top15">TOP 15 SITES</h2>
+
+
+
+        <div>
+            <div class="col-sm-4">
+                <a href="csgoroll.com">
+                    <img src="bilder/csgo-roll.png" width="70px" border="0" alt="csgoroll">
+                </a>
+                <p>CSGOROLL <br> ODAMPODAM </p>
+            </li>
+            <li>
+                <a href=""></a>
+                <br>
+                <a href="society.gg">
+                    <img src="bilder/society.png" width="70px" border="0" alt="society">
+                </a>
+                <p>SOCITY <br> ODAMPODAM</p>
+                <br>
+                <a href="drakewing.com">
+                 <img src="bilder/drakewing.png" width="110px" border="0" alt="drakewing">
+             </a>
+             <p>DRAKEWING <br> ODAMPODAM</p>
+             <br>
+             <a href="skinjoker.com">
+                <img src="bilder/skinjoker.png" width="70px" border="0" alt="skinjoker">
+            </a>
+            <p>SKINJOKER<br>ODAMPODAM</p>
+            <br>
+            <a href="csgomassive.com">
+                <img src="bilder/csgomassive.png" width="115px" border="0" alt="csgomassive">
+            </a>
+            <p>CSGOMASSIVE<br>ODAMPODAM</p>
+        </div>
+
+        <div class="col-sm-4">
+            <br>
+            <a href="https://csgoempire.com">
+                <img src="bilder/csgoempire.png" width="70px" border="0" alt="csgoempire">
+            </a>
+            <p>CSGOEMPIRE <br> ODAMPODAM</p>
+            <br>
+            <a href="https://csgobounty.com/">
+                <img src="bilder/csgo-bounty.png" width="70px" border="0" alt="drakemoon">
+            </a>   
+            <p>DRAKEMOON <br> ODAMPODAM</p>    
+            <br>
+            <a href="csgoatse.com">
+                <img src="bilder/CSGOatse.png" width="70px" border="0" alt="csgoatse">
+            </a>
+            <p>CSGOATSE <br> ODAMPODAM</p>
+            <a href="greenhunt.gg">
+                <img src="bilder/greenhunt.png" width="60px" border="0" alt="greenhunt">
+            </a>
+            <p>GREENHUNT<br>ODAMPODAM</p>
+            <br>
+            <a href="https://gamdom.com/">
+                <img src="bilder/gamdom.png" width="70px" border="0" alt="gamdom">
+            </a>
+            <p>GAMDOM<br>ODAMPODAM</p>
+        </div>
+        <div class="col-sm-4">
+            <br>
+            <a href="https://www.csgolive.com">
+                <img src="bilder/csgolive.png" width="70px" border="0" alt="csgolive">
+            </a>
+            <p>CSGOLIVE<br> ODAMPODAM</p>
+            <br>
+            <a href="https://csgo500.com/">
+                <img src="bilder/csgo500.png" width="70px" border="0" alt="csgo500">
+            </a>
+            <p>HELLCASE <br> ODAMPODAM</p>>
+            <br>
+            <a href="csgofast.com">
+                <img src="bilder/csgofast.png" width="70px" border="0" alt="csgofast">
+            </a>
+            <p>CSGOFAST<br>ODAMPODAM</p>
+            <br>
+            <a href="farmskins.com">
+                <img src="bilder/farmskins.png" width="70px" border="0" alt="farmskins">
+            </a>
+            <p>FARMSKINS<br>ODAMPODAM</p>
+            <br>
+            <a href="skinhub.com">
+                <img src="bilder/skinhub.png" width="70px" border="0" alt="skinhub">
+            </a>
+            <p>SKINHUB<br>ODAMPODAM</p>
+        </div>
+        <br>
+
+
+    </div>
+
+    <div class="col-sm-12 text-center">>
+        <h2>NEW SITES</h2>
+    </div>
+
+    <div>
+        <div class="col-sm-4">
+            <br> <br>
+            <a href="howl.gg">
+                <img src="bilder/howl.png" width="80px" border="0" alt="howl">
+            </a>
+            <p>HOWL<br>ODAMPODAM</p>
+            <br>
+            <a href="csgoc4.com">
+                <img src="bilder/csgoc4.png" width="70px" border="0" alt="csgoc4">
+            </a>
+            <p>CSGOC4<br>ODAMPODAM</p>
+        </div>
+
+        <div class="col-sm-4">
+            <br>
+            <a href="csgokingdom.com">
+                <img src="bilder/csgokingdom.png" width="70px" border="0" alt="csgokingdom">
+            </a>
+            <p>CSGOKINGDOM<br>ODAMPODAM</p>
+            <br>
+            <a href="csgotroop.com">
+                <img src="bilder/csgotroop.png" width="70px" border="0" alt="csgotroop">
+            </a>
+            <p>CSGOTROOP<br>ODAMPODAM</p>
+        </div>
+
+        <div class="col-sm-4">
+            <br> <br>
+            <a href="csgonerf.com">
+                <img src="bilder/csgonerf.png" width="70px" border="0" alt="csgonerf">
+            </a>
+            <p>CSGONERF<br>ODAMPODAM</p>
+            <br>
+            <a href="razecards.com">
+                <img src="bilder/razecards.png" width="70px" border="0" alt="razecards">
+            </a>
+            <p>RAZECARDS<br>ODAMPODAM</p>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <div class="box"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+    </div>
+
+    <div class="col-sm-4">
+        <div class="box6"></div>
+        <div class="box7"></div>
+        <div class="box8"></div>
+        <div class="box9"></div>
+        <div class="box10"></div>
+    </div>
+
+    <div class="col-sm-4">
+        <div class="box11"></div>
+        <div class="box12"></div>
+        <div class="box13"></div>
+        <div class="box14"></div>
+        <div class="box15"></div>
+    </div>
+
+
+</div>
+
+<div ng-controller="KommentarCtrl">
+    <div ng-repeat="Kommentar in kommentarer">
+        <p><b>{{ kommentar.skribent }}:</b> <br> {{ kommentar.text }}</p>
+    </div>
+</div>
+</body>
+</html>

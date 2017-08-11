@@ -1,0 +1,113 @@
+ul {
+	list-style: none;
+}
+.col-sm-4 {
+	text-align: center;
+}
+
+#new {
+	text-align: center;
+}
+
+#new * {
+	display: inline-block;
+}
+
+h2 {
+	font-family: 'Righteous', cursive;
+	text-align: center;
+	color: #36157c;
+	-webkit-text-stroke: 3px #f75a00;
+	font-size: 50px;
+}
+
+[class*="box"] a {
+	display: block;
+	height: 50%;
+}
+[class*="box"] a img {
+	margin-top: 20px;
+}
+
+p {
+	transform: translateY(20px);
+}
+
+#csgoc4Icon {
+	margin-right: 15px;
+}
+
+#razecardsIcon {
+	transform: translateY(15px);
+}
+
+#csgotroopIcon {
+	transform: translateY(5px);
+}
+
+#csgonerfIcon {
+	transform: translateY(25px);
+	width: 100px;
+}
+
+#howlIcon {
+	width: 110px;
+	transform: translateY(15px);
+}
+
+#gamdomIcon {
+	width: 115px;
+	transform: translateY(5px);
+}
+
+#csgomassiveIcon {
+	width: 185px;
+	transform: translateY(5px);
+}
+
+#skinjokerIcon {
+	width: 85px;
+	transform: translateY(-5px);
+}
+
+#csgofastIcon {
+	width: 150px;
+	transform: translateY(-10px);
+}
+
+#csgoatseIcon {
+	width: 90px;
+}
+
+#drakewingIcon {
+	width: 175px;
+	transform: translateY(5px);
+}
+
+#csgo500Icon {
+	width: 100px;
+	transform: translateY(-10px);
+}
+
+#csgoempireIcon {
+	width: 150px;
+	transform: translateY(20px);
+}
+
+#csgorollIcon {
+	width: 115px;
+	transform:translateY(-20px);
+	border-style: solid;
+	border-color: white;
+	border-radius:2px;
+}
+
+#csgoliveIcon {
+	width: 110px;
+	transform: translateY(15px);
+}
+
+#societyIcon {
+	width: 120px;
+	transform: translateY(15px);
+}
